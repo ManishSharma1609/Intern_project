@@ -51,7 +51,9 @@ This document summarizes the workflow and key findings from the project on predi
 - **Alternative Reduction Techniques:** Consider experimenting with other dimensionality reduction methods (like t-SNE or UMAP) to capture both global and local structures in the data.
 - **Model Ensembling:** Investigate the possibility of combining predictions from multiple models to potentially enhance overall predictive performance.
 - **Extended Validation:** Utilize cross-validation and external test sets to ensure that the selected model generalizes well.
-- **Interactive Visualizations:** Implement interactive tools for a more in-depth exploration of data patterns and model outputs.
+- **Expand the Dataset:**  
+  While the current dataset provides a good starting point, increasing the number of samples can significantly improve model generalization. A larger dataset will capture more variability in the spectral signatures, reduce the risk of overfitting, and allow the model to learn more robust patterns. Consider acquiring additional real-world data or applying data augmentation techniques to simulate more variability.
+
 
 ---
 
