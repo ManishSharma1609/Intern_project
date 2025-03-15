@@ -48,7 +48,6 @@ This document summarizes the workflow and key findings from the project on predi
 - **Model Robustness:** RandomForest provided a robust balance between fitting the training data and generalizing to new, unseen data, despite other models showing near-perfect training metrics.
 
 ### Recommendations
-- **Enhance Feature Engineering:** Explore deriving additional features (such as domain-specific indices) that may further improve model accuracy.
 - **Alternative Reduction Techniques:** Consider experimenting with other dimensionality reduction methods (like t-SNE or UMAP) to capture both global and local structures in the data.
 - **Model Ensembling:** Investigate the possibility of combining predictions from multiple models to potentially enhance overall predictive performance.
 - **Extended Validation:** Utilize cross-validation and external test sets to ensure that the selected model generalizes well.
